@@ -293,7 +293,7 @@ input, select, textarea {
 	#aSide model-viewer {
     	height: 100%;
     	width: 100%;
-   	 	position: absolute;
+   	 	position: relative;
     	top: 0;
     	left: 0;
     	border: none;
