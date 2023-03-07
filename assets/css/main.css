@@ -275,6 +275,24 @@ input, select, textarea {
 			margin: 5rem 0;
 		}
 
+	/* This styles the aside container */
+	#aSide {
+    	height: 100%;
+    	width: 100%;
+		position: absolute;
+    	top: calc(25% - 300px);
+    	right: 0%;
+	}
+
+	/* This styles the 3D object inserted in the aside container */
+	#aSide model-viewer {
+    	height: 100%;
+    	width: 100%;
+   	 	position: absolute;
+    	top: 0;
+    	left: 0;
+    	border: none;
+	}
 	.container{
 		display: flex;
 		align-items: center;
